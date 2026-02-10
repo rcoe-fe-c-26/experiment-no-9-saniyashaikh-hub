@@ -2,10 +2,8 @@
 # the factorial of a given integer N.
 # Coder:Saniya Shaikh
 # Date:30-01-2026
+print("--- Factorial Finder ---")
 
-print("--- Factorial Finder ---\n")
-
-# Write your code here
 N = int(input())
 
 if N < 0:
@@ -15,4 +13,6 @@ else:
     for x in range(1, N + 1):
         fact = fact * x
     print(f"Factorial of {N} is {fact}")
+
+
 
